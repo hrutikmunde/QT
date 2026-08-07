@@ -1,0 +1,2 @@
+/home/hrutik/Office_Chk_Cal/build/Qt_6_11_1_for_Android_arm64_v8a_Debug/Office_Chk_Cal_autogen/include/../EWIEGA46WW/moc_mainpage.cpp.json
+/home/hrutik/Office_Chk_Cal/build/Qt_6_11_1_for_Android_arm64_v8a_Debug/Office_Chk_Cal_autogen/include/../EWIEGA46WW/moc_mainwindow.cpp.json

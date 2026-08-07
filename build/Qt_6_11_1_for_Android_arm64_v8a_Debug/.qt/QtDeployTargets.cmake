@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Office_Chk_Cal_FILE /home/hrutik/Office_Chk_Cal/build/Qt_6_11_1_for_Android_arm64_v8a_Debug/libOffice_Chk_Cal_arm64-v8a.so)
+set(__QT_DEPLOY_TARGET_Office_Chk_Cal_TYPE MODULE_LIBRARY)

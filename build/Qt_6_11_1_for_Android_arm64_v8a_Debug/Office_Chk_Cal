@@ -1,0 +1,8 @@
+#!/bin/sh
+
+/home/hrutik/Qt/6.11.1/gcc_64/libexec/qt-android-runner.py \
+    --adb "/home/hrutik/Android/Sdk/platform-tools/adb" \
+    --build-path "/home/hrutik/Office_Chk_Cal/build/Qt_6_11_1_for_Android_arm64_v8a_Debug/android-build-Office_Chk_Cal" \
+    --apk "/home/hrutik/Office_Chk_Cal/build/Qt_6_11_1_for_Android_arm64_v8a_Debug/android-build-Office_Chk_Cal/Office_Chk_Cal.apk" \
+    $@
+

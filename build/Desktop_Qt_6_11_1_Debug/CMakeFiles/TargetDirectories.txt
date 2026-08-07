@@ -1,0 +1,9 @@
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/Office_Chk_Cal.dir
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/edit_cache.dir
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/rebuild_cache.dir
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/list_install_components.dir
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/install.dir
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/install/local.dir
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/install/strip.dir
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/Office_Chk_Cal_autogen_timestamp_deps.dir
+/home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/Office_Chk_Cal_autogen.dir

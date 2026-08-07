@@ -1,0 +1,41 @@
+{
+    "classes": [
+        {
+            "className": "MainPage",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "MainPage",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "lineNumber": 20,
+                    "name": "on_btncalculate_clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "lineNumber": 22,
+                    "name": "on_pushButton_close_clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "lineNumber": 24,
+                    "name": "on_pushButton_clicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "mainpage.h",
+    "outputRevision": 69
+}

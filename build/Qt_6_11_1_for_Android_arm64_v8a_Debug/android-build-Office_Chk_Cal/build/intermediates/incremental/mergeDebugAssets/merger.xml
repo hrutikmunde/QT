@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/hrutik/Office_Chk_Cal/build/Qt_6_11_1_for_Android_arm64_v8a_Debug/android-build-Office_Chk_Cal/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/hrutik/Office_Chk_Cal/build/Qt_6_11_1_for_Android_arm64_v8a_Debug/android-build-Office_Chk_Cal/src/debug/assets"/></dataSet></merger>

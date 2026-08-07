@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Office_Chk_Cal_FILE /home/hrutik/Office_Chk_Cal/build/Desktop_Qt_6_11_1_Debug/Office_Chk_Cal)
+set(__QT_DEPLOY_TARGET_Office_Chk_Cal_TYPE EXECUTABLE)
