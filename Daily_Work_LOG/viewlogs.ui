@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewLogs</class>
+ <widget class="QWidget" name="ViewLogs">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>427</width>
+    <height>770</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Work Log History</string>
+  </property>
+  <widget class="QLabel" name="lblTitle">
+   <property name="geometry">
+    <rect>
+     <x>109</x>
+     <y>20</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>WORK LOG HISTORY</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="fromDateEdit">
+   <property name="geometry">
+    <rect>
+     <x>99</x>
+     <y>76</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="displayFormat">
+    <string>dd/MM/yyyy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>80</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>From Date:</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="fromDateEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>78</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="displayFormat">
+    <string>dd/MM/yyyy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="toDate">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>81</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>To Date:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="searchButton">
+   <property name="geometry">
+    <rect>
+     <x>209</x>
+     <y>230</y>
+     <width>94</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SEARCH</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="allDataButton">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>230</y>
+     <width>94</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ALL DATA</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchEdit">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>180</y>
+     <width>391</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Search task...</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="logTable">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>290</y>
+     <width>381</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Task</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Assigned By</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Task Type</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Hours</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Remarks</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="labelsearchEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Search :</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

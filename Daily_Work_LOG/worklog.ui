@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Worklog</class>
+ <widget class="QWidget" name="Worklog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>496</width>
+    <height>942</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lblTitle">
+   <property name="geometry">
+    <rect>
+     <x>-22</x>
+     <y>5</y>
+     <width>491</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>DAILY WORK LOG</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DateEDIT">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>60</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Date:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="taskEdit">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>102</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Task:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="assignedBylbl">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>160</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Assigned By:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="assignedByCombo_2">
+   <property name="geometry">
+    <rect>
+     <x>129</x>
+     <y>160</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Manager</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Team Lead</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Self</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Other</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="labelTaskType">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>210</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Task Type:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="taskTypeCombo">
+   <property name="geometry">
+    <rect>
+     <x>129</x>
+     <y>212</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Development</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Testing</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Debugging</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Documentation</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Meeting</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Learning</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Other</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>129</x>
+     <y>270</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <double>24.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblhoursSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>270</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hours:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LblStatus">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>340</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Status:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="statusCombo">
+   <property name="geometry">
+    <rect>
+     <x>129</x>
+     <y>346</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Pending</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>In Progress</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Completed</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blocked</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="lblRemark">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remark:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addButton">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>570</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADD TASK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>570</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>62</y>
+     <width>110</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>1999</year>
+     <month>12</month>
+     <day>28</day>
+    </datetime>
+   </property>
+   <property name="displayFormat">
+    <string>dd/MM/yyyy</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="workLogTable">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>640</y>
+     <width>441</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Task</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Task Type</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Remarks</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPlainTextEdit" name="remarksEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>443</y>
+     <width>400</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>176</x>
+     <y>860</y>
+     <width>94</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Veiw data</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
