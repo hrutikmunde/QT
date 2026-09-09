@@ -1,0 +1,17 @@
+--resource
+/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/qmake_PersonalCashflowGame.qrc
+--resource
+/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/PersonalCashflowGame_raw_qml_0.qrc
+/PersonalCashflowGame/qml/Main.qml
+/PersonalCashflowGame/qml/Dashboard.qml
+/PersonalCashflowGame/qml/IncomePage.qml
+/PersonalCashflowGame/qml/ExpensesPage.qml
+/PersonalCashflowGame/qml/AssetsPage.qml
+/PersonalCashflowGame/qml/LiabilitiesPage.qml
+/PersonalCashflowGame/qml/InvestmentsPage.qml
+/PersonalCashflowGame/qml/EmergencyFundPage.qml
+/PersonalCashflowGame/qml/FreedomPage.qml
+/PersonalCashflowGame/qml/GoalsPage.qml
+/PersonalCashflowGame/qml/DailyTrackerPage.qml
+/PersonalCashflowGame/qml/components/StatCard.qml
+/PersonalCashflowGame/qml/components/SectionTitle.qml

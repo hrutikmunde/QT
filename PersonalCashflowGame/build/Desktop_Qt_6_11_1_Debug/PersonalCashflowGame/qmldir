@@ -1,0 +1,18 @@
+module PersonalCashflowGame
+typeinfo PersonalCashflowGame.qmltypes
+prefer :/PersonalCashflowGame/
+Main 1.0 qml/Main.qml
+Dashboard 1.0 qml/Dashboard.qml
+IncomePage 1.0 qml/IncomePage.qml
+ExpensesPage 1.0 qml/ExpensesPage.qml
+AssetsPage 1.0 qml/AssetsPage.qml
+LiabilitiesPage 1.0 qml/LiabilitiesPage.qml
+InvestmentsPage 1.0 qml/InvestmentsPage.qml
+EmergencyFundPage 1.0 qml/EmergencyFundPage.qml
+FreedomPage 1.0 qml/FreedomPage.qml
+GoalsPage 1.0 qml/GoalsPage.qml
+DailyTrackerPage 1.0 qml/DailyTrackerPage.qml
+StatCard 1.0 qml/components/StatCard.qml
+SectionTitle 1.0 qml/components/SectionTitle.qml
+depends QtQuick
+

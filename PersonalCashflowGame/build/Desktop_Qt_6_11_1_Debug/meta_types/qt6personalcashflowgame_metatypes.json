@@ -1,0 +1,628 @@
+[
+    {
+        "classes": [
+            {
+                "className": "DatabaseManager",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "DatabaseManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 42,
+                        "name": "dataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "DatabaseManager.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "FinancialCalculator",
+                "lineNumber": 6,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 9,
+                        "name": "totalIncome",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "totalIncome",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 10,
+                        "name": "totalExpenses",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "totalExpenses",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 11,
+                        "name": "cashFlow",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "cashFlow",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 12,
+                        "name": "passiveIncome",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "passiveIncome",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 13,
+                        "name": "totalAssets",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "totalAssets",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 14,
+                        "name": "totalLiabilities",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "totalLiabilities",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 15,
+                        "name": "netWorth",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "netWorth",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 16,
+                        "name": "savingsRate",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "savingsRate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 17,
+                        "name": "freedomPercent",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "freedomPercent",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 18,
+                        "name": "freedomStatus",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "freedomStatus",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 19,
+                        "name": "emergencyTarget",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "emergencyTarget",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 20,
+                        "name": "emergencyCurrent",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "emergencyCurrent",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 21,
+                        "name": "emergencyProgress",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "emergencyProgress",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 22,
+                        "name": "emergencyStatus",
+                        "notify": "valuesChanged",
+                        "override": false,
+                        "read": "emergencyStatus",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "FinancialCalculator",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 41,
+                        "name": "valuesChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "FinancialCalculator.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "GameController",
+                "lineNumber": 7,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "isConst": true,
+                        "lineNumber": 15,
+                        "name": "incomeRows",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "isConst": true,
+                        "lineNumber": 16,
+                        "name": "expenseRows",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "isConst": true,
+                        "lineNumber": 17,
+                        "name": "assetRows",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "isConst": true,
+                        "lineNumber": 18,
+                        "name": "liabilityRows",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "isConst": true,
+                        "lineNumber": 19,
+                        "name": "investmentRows",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "isConst": true,
+                        "lineNumber": 20,
+                        "name": "goalRows",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "isConst": true,
+                        "lineNumber": 21,
+                        "name": "dailyRows",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "bool"
+                            },
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 9,
+                        "lineNumber": 23,
+                        "name": "addIncome",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 10,
+                        "lineNumber": 24,
+                        "name": "addExpense",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 25,
+                        "name": "addAsset",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 26,
+                        "name": "addLiability",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 27,
+                        "name": "addInvestment",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 28,
+                        "name": "addGoal",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "double"
+                            },
+                            {
+                                "type": "double"
+                            }
+                        ],
+                        "index": 15,
+                        "lineNumber": 29,
+                        "name": "addDailyEntry",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "double"
+                            }
+                        ],
+                        "index": 16,
+                        "lineNumber": 30,
+                        "name": "setEmergencyFund",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 17,
+                        "lineNumber": 32,
+                        "name": "newGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 18,
+                        "lineNumber": 33,
+                        "name": "nextTurn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 19,
+                        "lineNumber": 34,
+                        "name": "refresh",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 10,
+                        "name": "turn",
+                        "notify": "turnChanged",
+                        "override": false,
+                        "read": "turn",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 11,
+                        "name": "status",
+                        "notify": "statusChanged",
+                        "override": false,
+                        "read": "status",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "GameController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 40,
+                        "name": "turnChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 41,
+                        "name": "statusChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "GameController.h",
+        "outputRevision": 69
+    }
+]

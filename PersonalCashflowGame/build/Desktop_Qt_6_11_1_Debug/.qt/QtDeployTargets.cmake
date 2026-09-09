@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_PersonalCashflowGame_FILE /home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/cashflow_game)
+set(__QT_DEPLOY_TARGET_PersonalCashflowGame_TYPE EXECUTABLE)

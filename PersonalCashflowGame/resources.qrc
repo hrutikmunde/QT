@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Main.qml</file>
+        <file>qml/screens/Dashboard.qml</file>
+        <file>qml/screens/IncomeScreen.qml</file>
+        <file>qml/screens/ExpenseScreen.qml</file>
+        <file>qml/screens/DailyTrackerScreen.qml</file>
+        <file>qml/screens/AssetsScreen.qml</file>
+        <file>qml/screens/LiabilitiesScreen.qml</file>
+        <file>qml/screens/CashFlowScreen.qml</file>
+        <file>qml/screens/InvestmentScreen.qml</file>
+        <file>qml/screens/EmergencyFundScreen.qml</file>
+        <file>qml/screens/FinancialFreedomScreen.qml</file>
+        <file>qml/screens/GoalPlannerScreen.qml</file>
+        <file>qml/screens/GameOverScreen.qml</file>
+        <file>qml/components/StatCard.qml</file>
+        <file>qml/components/Sidebar.qml</file>
+        <file>qml/components/SidebarItem.qml</file>
+        <file>qml/components/HeaderBar.qml</file>
+        <file>qml/components/BarChartCard.qml</file>
+        <file>qml/components/LineChartCard.qml</file>
+        <file>qml/components/ProgressBar.qml</file>
+    </qresource>
+</RCC>

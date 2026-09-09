@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/PersonalCashflowGame">
+    <file alias="qmldir">/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/PersonalCashflowGame/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="/PersonalCashflowGame/">
+    <file alias="qml/Main.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/Main.qml</file>
+    <file alias="qml/Dashboard.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/Dashboard.qml</file>
+    <file alias="qml/IncomePage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/IncomePage.qml</file>
+    <file alias="qml/ExpensesPage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/ExpensesPage.qml</file>
+    <file alias="qml/AssetsPage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/AssetsPage.qml</file>
+    <file alias="qml/LiabilitiesPage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/LiabilitiesPage.qml</file>
+    <file alias="qml/InvestmentsPage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/InvestmentsPage.qml</file>
+    <file alias="qml/EmergencyFundPage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/EmergencyFundPage.qml</file>
+    <file alias="qml/FreedomPage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/FreedomPage.qml</file>
+    <file alias="qml/GoalsPage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/GoalsPage.qml</file>
+    <file alias="qml/DailyTrackerPage.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/DailyTrackerPage.qml</file>
+    <file alias="qml/components/StatCard.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/components/StatCard.qml</file>
+    <file alias="qml/components/SectionTitle.qml">/home/hrutik/Downloads/cashflow/PersonalCashflowGame/qml/components/SectionTitle.qml</file>
+  </qresource>
+</RCC>
+

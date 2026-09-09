@@ -1,0 +1,14 @@
+-rootPath
+/home/hrutik/Downloads/cashflow/PersonalCashflowGame
+-cmake-output
+-output-file
+/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/.qt/qml_imports/PersonalCashflowGame_build.cmake
+-importPath
+/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug
+-importPath
+/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/PersonalCashflowGame
+-importPath
+/home/hrutik/Qt/6.11.1/gcc_64/qml
+-qrcFiles
+/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/qmake_PersonalCashflowGame.qrc
+/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/PersonalCashflowGame_raw_qml_0.qrc

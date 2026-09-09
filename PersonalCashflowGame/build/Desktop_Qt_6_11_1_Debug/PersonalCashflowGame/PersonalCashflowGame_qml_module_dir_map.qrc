@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/PersonalCashflowGame">/home/hrutik/QT/PersonalCashflowGame/build/Desktop_Qt_6_11_1_Debug/PersonalCashflowGame</file>
+
+  </qresource>
+</RCC>
