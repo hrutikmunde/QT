@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Device_control_Panel_1_FILE /home/hrutik/Device_control_Panel_1/build/Desktop_Qt_6_11_1_Debug/Device_control_Panel_1)
+set(__QT_DEPLOY_TARGET_Device_control_Panel_1_TYPE EXECUTABLE)
